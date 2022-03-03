@@ -161,3 +161,10 @@ a:hover{color: inherit;}
   height: 100%;
   object-fit: cover;
 }
+.relatedPlaylistDiv{
+  position: relative;
+}
+.relatedPlaylistDiv p{
+  position: absolute;bottom: -10px;
+  left: 0;right: 0;background-color: rgba(173, 77, 155, .4);
+}
